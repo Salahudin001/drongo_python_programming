@@ -2,7 +2,7 @@
 # Recursive functions are used mostly for sequence generation and are used to make the code look clean and elegant.
 
 def rec_sum(n):
-    if n <= 1:
+    if n < 1:
         return n
     else:
         return n + rec_sum(n-1)
@@ -10,3 +10,4 @@ def rec_sum(n):
 
 y = rec_sum(5)
 print(y)
+ 
