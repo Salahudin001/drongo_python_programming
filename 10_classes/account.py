@@ -34,7 +34,7 @@ class Account():
         return self.balance
 
     def TransferCash(self ,AcountNumber , amountToBeSent ,password ):
-         if password != self.passwor
+         if password != self.password:
             print('Incorrect password for this account')
             return None
          
