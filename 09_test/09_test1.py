@@ -28,4 +28,3 @@ def divide_apples():
    print('the number is ',rem)
 divide_apples()
 
-
